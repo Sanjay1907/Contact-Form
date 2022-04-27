@@ -5,7 +5,7 @@ function sendEmail(){
         Password : "cfjbqmnoynilbwtg",
         To : document.getElementById("email").value,
         From : 'imsanju1907@gmail.com',
-        Subject : "New contact enquiry form",
+        Subject : "Welcome" + document.getElementById("name").value,
         Body : "Hi" + document.getElementById("name").value +","
         +"<br> Thank you for connecting with me. I like to hear more from you."
         +"<br> Best regards"
