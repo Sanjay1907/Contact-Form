@@ -3,8 +3,8 @@ function sendEmail(){
         Host : "smtp.gmail.com",
         Username : "imsanju1907@gmail.com",
         Password : "cfjbqmnoynilbwtg",
-        To : 'tamil.sanjukhoushi02@gmail.com',
-        From : document.getElementById("email").value,
+        To : document.getElementById("email").value,
+        From : 'imsanju1907@gmail.com',
         Subject : "New contact enquiry form",
         Body : "Name : " + document.getElementById("name").value
         +"<br> Email : " + document.getElementById("email").value
